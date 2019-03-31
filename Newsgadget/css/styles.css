@@ -17,3 +17,8 @@ footer {
 header {
     grid-area: header;
 }
+h1 {
+    font-family: 'Teko-Regular', sans-serif;
+    font-size:4em;
+    color:black;
+}

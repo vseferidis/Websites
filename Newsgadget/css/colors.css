@@ -1,0 +1,9 @@
+a {
+  color:#FD0852;
+}
+a:hover, a:focus, a:active {
+  color:#AF0538;
+}
+.bg-light-pink {
+  background-color:#EDE5E2 !important;
+}

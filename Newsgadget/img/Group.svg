@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="271px" height="405px" viewBox="0 0 271 405" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <polygon id="Fill-1" fill="#E6E6E6" points="162 0 0 93 0 155 54 125 54 312 109 279 109 93 162 62"></polygon>
+            <polygon id="Fill-2" fill="#808080" points="162 0 162 62 216.9999 93 217 32"></polygon>
+            <polygon id="Fill-3" fill="#4D4D4D" points="109 93 162 62 216.9999 93 163 125"></polygon>
+            <polygon id="Fill-4" fill="#4D4D4D" points="0 155 54 186 54 125"></polygon>
+            <polygon id="Fill-5" fill="#E6E6E6" points="162.9999 125.0001 161.9999 312.0001 108.9999 343.0001 108.9999 405.0001 270.9999 312.0001 270.9999 250.0001 216.9999 280.0001 216.9999 93"></polygon>
+            <polygon id="Fill-6" fill="#808080" points="54 374 108.9999 405.0004 108.9999 342.9994 54 312"></polygon>
+            <polygon id="Fill-7" fill="#4D4D4D" points="162 312 109 343 54 312 109 279"></polygon>
+            <polygon id="Fill-8" fill="#4D4D4D" points="216.9999 279.9999 270.9999 249.9999 216.9999 218.9999"></polygon>
+            <polygon id="Fill-9" fill="#1A1A1A" points="109 279 162 312 163 125 109 93"></polygon>
+        </g>
+    </g>
+</svg>
