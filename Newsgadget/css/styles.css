@@ -1,19 +1,19 @@
 body {
     display: grid;
     grid-template-areas: 
-    "header header header header"
-    "aside main main main"
-    "footer footer footer footer"
+    "header header"
+    "aside main"
+    "footer footer"
 }
 main {
-    grid-area: "main";
+    grid-area: main;
 }
 aside {
-    grid-area: "aside";
+    grid-area: aside;
 }
 footer {
-    grid-area: "footer";
+    grid-area: footer;
 }
 header {
-    grid-area: "header";
+    grid-area: header;
 }
