@@ -15,13 +15,13 @@
 
 <body class="body-wrapper">
 	<header class="bg-light shadow-lg">
-		<nav class="navbar navbar-expand container text-light">
+		<nav class="navbar navbar-expand-sm container text-light">
 			<a href="#" class="navbar-brand"><img src="img/Logo.svg" height="64px"></a>
-			<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="navigationHeader"
-				aria-controls="navigationHeader" aria-label="Navigation Header" aria-expanded="false">
+			<button class="navbar-toggler text-pink border-danger" type="button" data-toggle="collapse"
+				data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				<i class="la la-bars" aria-hidden="true"></i>
 			</button>
-			<div class="collapse navbar-collapse" id="navigationHeader">
+			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav ml-auto">
 					<li class="nav-item active">
 						<a class="nav-link" href="#">Start</a>
@@ -42,23 +42,53 @@
 						</div>
 					</li>
 					<li class="nav-item">
-							<a class="nav-link" href="#">Contacts</a>
+						<a class="nav-link" href="#">Contacts</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
 	</header>
 
-	<main>
-		<section class="showTitle">
+
+	<main class="container">
+
+		<aside class="sidebar">
+			<div class="">
+				<p>Hello World;</p>
+			</div>
+		</aside>
+
+		<section class="contents">
 			<h1>The Isometrix Show</h1>
+			<div class="ourVideos">
+				<div class="card-deck">
+					<div class="card border-danger">
+						<img class="card-img-top" src="assets/episode-1/episode-1-preview.jpg" alt="Episode 1 Preview">
+						<div class="card-body">
+							<h5 class="card-title">Discovering the 4th Dimension</h5>
+							<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+						</div>
+						<div class="card-footer">
+							<small class="text-muted">Last updated 3 mins ago</small>
+						</div>
+					</div>
+					<div class="card">
+						<img class="card-img-top" src="assets/episode-2/episode-2-preview.jpg" alt="Episode 1 Preview">
+						<div class="card-body">
+							<h5 class="card-title">A Journey to a Human Cell</h5>
+							<p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+						</div>
+						<div class="card-footer">
+							<small class="text-muted">Last updated 3 mins ago</small>
+						</div>
+					</div>
+				</div>
+			</div>
 		</section>
+
 	</main>
 
 
-	<aside>
-
-	</aside>
 
 	<footer class="container-fluid bg-dark">
 		<div>

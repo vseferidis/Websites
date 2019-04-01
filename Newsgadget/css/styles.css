@@ -1,24 +1,35 @@
-body {
-    display: grid;
-    grid-template-areas: 
-    "header header"
-    "aside main"
-    "footer footer"
-}
-main {
-    grid-area: main;
-}
-aside {
-    grid-area: aside;
-}
-footer {
-    grid-area: footer;
-}
-header {
-    grid-area: header;
-}
 h1 {
-    font-family: 'Teko-Regular', sans-serif;
-    font-size:4em;
-    color:black;
+	font-family: 'Teko-Regular', sans-serif;
+	font-size: 4em;
+	color: black;
+}
+
+main {
+	display: grid;
+	grid-template-columns: minmax(min-content, 300px) minmax(200px, auto);
+	grid-template-areas:
+		"sidebar contents";
+		grid-gap: 3em;
+		padding:3em;
+}
+
+.sidebar {
+	grid-area: sidebar;
+	background-color: white;
+	border-radius:21px;
+	padding: 2em;
+	position: static;
+}
+
+.contents {
+	grid-area: contents;
+	background-color: white;
+	border-radius:21px;
+	padding: 2em;
+}
+.card {
+	border-radius:15px;
+}
+.card-img-top {
+	border-radius: 15px 15px 0 0;
 }
